@@ -1,6 +1,6 @@
 1.  start
-2.  create string array object in the class QuickSort (names[])
-3.  create length(length of string array) in the class QuickSort (length)
+2.  create string array paramter in the class QuickSort (names[])
+3.  create length(length of string array) parameter in the class QuickSort (length)
 4.  enter the n names to string array nameList
 5.  quickSort(nameList)
 6.  print nameList
@@ -41,6 +41,7 @@ Algorithm for quickSort(int lb,int hb)
 21. if(i<hb)
 22.     quickSort(i,hb)
 23. Endif
+24. stop
 
 
 
