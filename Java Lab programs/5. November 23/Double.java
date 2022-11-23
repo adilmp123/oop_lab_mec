@@ -52,7 +52,8 @@ class Double
         Node temp = head;
         if(temp==null)
         {
-            System.out.println("List is Empty");
+            addElement(data);
+            System.out.println("List was empty element added to first");
             return;
         }
         int count=1;
@@ -113,6 +114,9 @@ class Double
     {
         if(head==null)
         {
+            System.out.println("List is Empty");
+            return;
+        }
             System.out.println("List is Empty");
             return;
         }
